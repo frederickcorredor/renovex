@@ -1161,6 +1161,7 @@ footer{
 
     .contenido-body{
         align-items: center;
+        width: 100%;
     }
 
     .texto-header {
@@ -1204,6 +1205,10 @@ footer{
             filter: drop-shadow(0px 0px 10px rgba(2, 30, 87, 0.986));
             z-index: 2;
         }
+    }
+
+    .contenedor-peque{
+        min-width: 200px;
     }
 
     section{
