@@ -848,12 +848,13 @@ footer{
 .hacer-test{
     overflow: hidden;
     position: relative;
-    min-height: 435px;
-    margin-bottom: -10px;
+    min-height: 535px;
+    margin-bottom: 0px;
+   
 
 
     img{
-        top: 10px;
+        bottom: 0px;
         width: 300px;
     }
 }
@@ -1108,7 +1109,231 @@ footer{
 
 
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 797px){
+ 
+    p{
+        font-size: 1rem;
+    }
+
+    .menu-movil{
+        display: flex;
+    }
+
+    .menu{
+        display: none;
+    }
+    .logo{
+        width: 120px;
+        position: absolute;
+        left: 5%;
+         a{
+            width: 120px;
+
+            img{
+                width: 100%;
+                height: auto;
+
+                &:hover{
+                    transform: scale(.99);
+                }
+            }
+         }
+    }
+
+    header{
+        min-height: 85vh;
+        background-position: -210px 30px;
+        background-attachment: initial;
+
+        .wrapper{
+            justify-content: left;
+        }
+
+        h1{
+            font-size: 1.6rem;
+        }
+    }
+
+    .header-testimonio{
+        background-position: -470px;
+    }
+
+
+    .contenido-body{
+        align-items: center;
+    }
+
+    .texto-header {
+        width: 100%;
+        min-width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 12px;
+        position: relative;
+        bottom: 10px;
+        left: 0px;
+        
+
+        h2{
+            width: 60%;
+            margin-top: 12px;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        p{
+            font-size: 18px;
+            width: 60%;
+            font-weight: 700;
+            text-shadow: 1px 1px 2px rgba(2, 30, 87, 0.986);
+            
+        }
+    }
+
+    .imagen-header {
+        img {
+            min-width: 173px;
+            width: 17%;
+            height: auto;
+            border-radius: 8px;
+            position: absolute;
+            bottom: -27px;
+            right: 6px;
+            filter: drop-shadow(0px 0px 10px rgba(2, 30, 87, 0.986));
+            z-index: 2;
+        }
+    }
+
+    section{
+        padding: 6px;
+    }
+
+
+    .wrapper{
+        padding: 2px;
+    }
+
+
+    .linea-azul2 {
+        width: 100%;
+        height: 190px;
+        position: absolute;
+        background-color: #57ade9;
+        bottom: -86px;
+        right: 0px;
+        border-top-left-radius: 100%;
+        z-index: 1;
+    }
+
+    .linea-blanca {
+        width: 100%;
+        height: 56px;
+        position: absolute;
+        background-color: #ffffff;
+        bottom: -7px;
+        border-top-left-radius: 32%;
+        right: 0px;
+        z-index: 3;
+    }
+
+    .linea-azul {
+        width: 91%;
+        height: 72px;
+        position: absolute;
+        background-color: #57ade9;
+        bottom: -28px;
+        right: 0px;
+        border-top-left-radius: 100%;
+        z-index: 4;
+    }
+
+    .quienes-somos{
+        margin-top: -40px;
+    }
+
+    .imagensolo-pc{
+        display: none;
+    }
+
+    video{
+        max-width: 310px;
+    }
+
+    .video{
+        
+        margin-top: -24px;
+
+        h2{
+            position: static;
+            text-align: center;
+            font-size: 26px;
+        }
+    }
+
+    .contenedor-peque {
+        h3 {
+            text-align: left;
+            font-size: 1rem;
+            color: #0284c8;
+        }
+}
+
+.contacto{
+   margin-top: 6px;
+    border-radius: 6px 46px 6px 124px;
+    .wrapper{
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 0px;
+        margin-bottom: -25px;
+    }
+
+    .linea-azul{
+        bottom:-39px;
+    } 
+
+    .linea-blanca{
+        bottom: -22px;
+    }
+    .linea-azul2{
+        bottom: -126px;
+    }
+}
+
+
+.faq-item{
+    width: 100%;
+}
+
+.faq{
+    h2{
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+
+.hacer-test{
+    margin-bottom: -6px;
+    padding: 0px;
+    min-height: 445px;
+
+    .contenido-body{
+        margin-top: -250px;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+  
+
+}
+
+}
+
+
+@media screen and (max-width: 399px){
  
     p{
         font-size: 1rem;
@@ -1311,16 +1536,17 @@ footer{
 
 
 .hacer-test{
+    margin-bottom: -6px;
+    padding: 0px;
+    min-height: 445px;
 
     .contenido-body{
-        margin-top: -200px;
+        margin-top: -250px;
         text-align: center;
-        
+        padding-bottom: 0px;
     }
 
-    img{
-        top: 190px;
-    }
+  
 
 }
 
