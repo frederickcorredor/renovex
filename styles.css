@@ -995,7 +995,7 @@ footer{
             border: #04548df7 2px solid;
             border-top-right-radius: 8px;
             border-bottom-left-radius: 8px;
-            
+            max-width: 95%;
         }
 
 @-webkit-keyframes slide-in-bottom {
