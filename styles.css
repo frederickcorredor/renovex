@@ -490,6 +490,7 @@ video{
     align-content: flex-start;
     position: relative;
     min-height: 240px;
+    overflow: hidden;
 
     h2{
         text-align: left;
