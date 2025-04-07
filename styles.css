@@ -1273,6 +1273,7 @@ footer{
     }
 
     .contenedor-peque {
+        max-width: 200px;
         h3 {
             text-align: left;
             font-size: 1rem;
