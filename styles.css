@@ -1004,6 +1004,66 @@ footer{
             max-width: 95%;
         }
 
+
+        #curvaazul{
+            background: linear-gradient(274deg, #0284c878, #04548d)
+            ;clip-path: ellipse(100% 52% at 98% 9%);
+            min-height: 450px; 
+            position: relative;
+            overflow: visible;
+        }
+
+        #espan1{
+            color: white; 
+            font-size: 60px;
+            font-weight: 800;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        #espan2{
+            color: #f0981e; 
+            font-size: 120px;
+            font-weight: 800;
+            margin-top: -50px;
+            text-shadow: 1px 1px 1px black;
+        }
+
+        #espan3{
+            color: white; 
+            font-size: 60px;
+            font-weight: 800;
+            margin-top: -35px;
+            text-shadow: 1px 1px 1px black;
+        }
+
+
+        #frascogirado{
+            position: absolute;
+            right: 10%;
+            top: 1%;
+            transform: rotate(341deg);
+            width: 180px;
+        }
+
+        #contenedorespan{
+            display: flex; 
+            flex-wrap: wrap; 
+            flex-direction: column;
+            align-items: flex-end;
+            position:relative;
+            transform: rotate(357deg);
+            bottom: 430px;
+        }
+
+        .titulo3producto{
+            color: #0878b8;
+            font-size: 26px;
+            
+            span{
+                font-size: 40px;
+            }
+        }
+
 @-webkit-keyframes slide-in-bottom {
     0% {
       -webkit-transform: translateY(1000px);
@@ -1347,7 +1407,70 @@ footer{
     width: 360px;
 }
 
+#curvaazul{
+    background: linear-gradient(274deg, #0284c878, #04548d);
+    clip-path: ellipse(100% 52% at 98% 9%);
+    min-height: 450px;
+    position: relative;
+    overflow: visible;
 }
+
+#espan1{
+    color: white; 
+    font-size: 40px;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px black;
+}
+
+#espan2{
+    color: #f0981e; 
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: -30px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#espan3{
+    color: white; 
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: -20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#frascogirado{
+    position: absolute;
+    left: 10%;
+    top: 2%;
+    transform: rotate(341deg);
+    width: 100px;
+}
+
+#contenedorespan{
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+    align-items: flex-end;
+    position:relative;
+    transform: rotate(357deg);
+    bottom: 430px;
+    left: 6%;
+    margin-bottom: 70px;
+}
+
+.titulo3producto{
+    color: #0878b8;
+    font-size: 21px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    span{
+        font-size: 30px;
+    }
+}
+
+}
+
+
 
 
 @media screen and (max-width: 399px){
